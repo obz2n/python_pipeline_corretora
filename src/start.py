@@ -3,10 +3,11 @@ import camelot
 import pandas as pd
 import loguru
 from unidecode import unidecode
+from config import *
 
 class PDFTableExtractor:
-    def __init___()
-        pass
+    def __init__(self, FILES_PATH,CONFIGS):
+        self.path = os.path.abspath(f"{FILES_PATH}/{FILE_NAME}.pdf")
 
     def start():
         pass
@@ -31,4 +32,5 @@ class PDFTableExtractor:
 
 if __name__ == "__main__":
     extractor = PDFTableExtractor()
-    extractor.start()
+
+    print(extractor)
