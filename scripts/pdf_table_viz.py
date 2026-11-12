@@ -4,8 +4,7 @@ import camelot
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 
-
-FILE_NAME = "../python_pipeline_corretora/data/nota_corretagem_ficticia.pdf"
+FILE_NAME = "../workspace/python_pipeline_corretora/data/nota_corretagem_ficticia.pdf"
 
 # Teste com um arquivo PDF específico
 path = os.path.abspath(f"{FILE_NAME}")
